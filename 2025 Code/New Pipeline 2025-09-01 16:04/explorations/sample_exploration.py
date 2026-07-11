@@ -17,4 +17,3 @@ sys.path.append("/Workspace/Users/ruben.ruben123@gmail.com/New Pipeline 2025-09-
 # !!! Before performing any data analysis, make sure to run the pipeline to materialize the sample datasets. The tables referenced in this notebook depend on that step.
 
 display(spark.sql("SELECT * FROM workspace.default.sample_trips_sep_1_1604"))
-
